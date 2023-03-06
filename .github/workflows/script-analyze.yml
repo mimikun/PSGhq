@@ -1,10 +1,16 @@
-name: Test
+name: Run PSSA
 
 on:
   push:
     branches:
       - master
+    paths:
+      - '**.ps1'
+      - '**.psd1'
   pull_request:
+    paths:
+      - '**.ps1'
+      - '**.psd1'
 
 jobs:
   lint:
