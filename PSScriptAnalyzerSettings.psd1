@@ -1,6 +1,6 @@
 ﻿@{
     ExcludeRules = @(
-        # 除外したいルールを書く
-        'WANT_EXCLUDE_RULES'
+        # Set-GhqLocation という名前がいいので
+        'PSUseShouldProcessForStateChangingFunctions'
     )
 }
